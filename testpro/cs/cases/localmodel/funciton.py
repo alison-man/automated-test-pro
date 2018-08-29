@@ -209,5 +209,5 @@ def open_report_html(file, which="chrome"):
 
 
 if __name__ == '__main__':
-	print(time.strftime('%Y-%m-%d %H:%M:%S'))
+    print("change")
     print(os.path.dirname(__file__))
