@@ -41,7 +41,7 @@ class loginTest(myunit.MyTest):
 
     def test_login_4(self):
         """用户名和密码正确"""
-        self.user_login_verify(username="fastweb.com.cn", password="fastweb123")
+        self.user_login_verify(username="fastweb.com.cn", password="23123")
         po = Login(self.driver)
         self.assertEqual(po.user_login_success(), "报表分析")
         funciton.insert_img(self.driver, "user_pawd_success.png")
